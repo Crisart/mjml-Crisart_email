@@ -1,0 +1,32 @@
+<mj-style inline="inline">
+    .header_h1 {
+        letter-spacing: 2px;
+        font-size: 70px;
+        color: #E9FC2E;
+        margin: 0;
+    }
+    .header_p {
+        font-size: 20px;
+        color: #333333;
+        padding-left: 8px;
+        margin: 0;
+    }
+    .header_background {
+        height: 378px;
+        background-color: #cccccc;
+        background-image: url("images/header/header_600x378.jpg");
+        background-position: cover;
+        background-repeat: no-repeat;
+    }
+    .separator_image{
+        height: 100px;
+    }
+    .aboutme_p {
+        padding:0 20px 40px 20px;
+        text-align: justify;
+    }
+    .footer_link {
+        color: #2AACCB;
+        text-decoration: none;
+    }
+</mj-style>

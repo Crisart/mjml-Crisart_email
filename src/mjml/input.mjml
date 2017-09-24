@@ -1,0 +1,203 @@
+<mjml>
+    <mj-head>
+        <mj-preview>Crisart Email</mj-preview>
+        <mj-font name="Quicksand" href="https://fonts.googleapis.com/css?family=Quicksand:400,700"/>
+        <mj-attributes>
+            <mj-all font-family="Quicksand"/>
+        </mj-attributes>
+        <mj-include path="src/mjml/styles.mjml" />
+        <mj-title>Crisart Email</mj-title>
+    </mj-head>
+    <mj-body>
+        <mj-container>
+        <!-- Header -->
+            <mj-section css-class="header_background">
+                <mj-column width="100%">
+                    <mj-button
+                        href="#"
+                        background-color="transparent"
+                        color="#2AACCB"
+                        padding="0"
+                    >
+                        View in browser
+                    </mj-button>
+                </mj-column>
+                <mj-column width="35%"></mj-column>
+                <mj-column width="65%">
+                    <mj-text 
+                        font-weight="bold"
+                        align="left"
+                        line-height="1"
+                        padding-top="25"
+                        padding-bottom="25"
+                    >
+                        <h1 class="header_h1">CRISART</h1>
+                        <p class="header_p">Passionate self-taugth</p>
+                    </mj-text> 
+                </mj-column>
+                <mj-column width="100%">
+                    <mj-button
+                        href="https://crisart.github.io/portfolio/"
+                        align="right"
+                        background-color="#E9FC2E"
+                        color="#2AACCB"
+                        font-size="24"
+                        border-radius="none"
+                        padding-top="50"
+                    >
+                        View portfolio
+                    </mj-button>
+                </mj-column>
+            </mj-section>
+            <!-- Carousel -->
+            <mj-section background-color="#2AACCB">
+                <mj-column>
+                    <mj-carousel
+                        tb-width="40px"
+                        border-radius="0"
+                        tb-border-radius="0"
+                        tb-selected-border-color="#ffffff"
+                        tb-hover-border-color="#E9FC2E"
+                        left-icon="images/icons/icon-left_60x60.jpg"
+                        right-icon="images/icons/icon-right_60x60.jpg"
+                        icon-width="60px"
+                    >
+                        <mj-carousel-image 
+                            alt="Wire head image 01"
+                            title="Wire head image 01"
+                            src="images/carousel/img_01.jpg" 
+                        />
+                        <mj-carousel-image 
+                            alt="Wire head image 02"
+                            title="Wire head image 02"
+                            src="images/carousel/img_02.jpg" 
+                        />
+                        <mj-carousel-image 
+                            alt="Wire head image 03"
+                            title="Wire head image 03"
+                            src="images/carousel/img_03.jpg" 
+                        />
+                        <mj-carousel-image 
+                            alt="Wire head image 04"
+                            title="Wire head image 04"
+                            src="images/carousel/img_04.jpg" 
+                        />
+                        <mj-carousel-image 
+                            alt="Wire head image 05"
+                            title="Wire head image 05"
+                            src="images/carousel/img_05.jpg" 
+                        />
+                        <mj-carousel-image 
+                            alt="Wire head image 06"
+                            title="Wire head image 06"
+                            src="images/carousel/img_06.jpg" 
+                        />
+                        <mj-carousel-image 
+                            alt="Wire head image 07"
+                            title="Wire head image 07"
+                            src="images/carousel/img_07.jpg" 
+                        />
+                        <mj-carousel-image 
+                            alt="Wire head image 01"
+                            title="Wire head image 01"
+                            src="images/carousel/img_01.jpg" 
+                        />
+                    </mj-carousel>
+                </mj-column>
+            </mj-section>
+            <!-- Separator -->
+            <mj-section 
+                css-class="separator_image"
+                background-color="#2AACCB"
+                background-url="images/separator/separator_600x100.jpg"
+                background-repeat="no-repeat"
+            >
+            </mj-section>
+            <!-- About me -->
+            <mj-section background-color="#333333">
+                <mj-column width="100%">
+                    <mj-text
+                        align="center"
+                        font-size="24px"
+                        color="#ffffff"
+                    >
+                        <h2>About me</h2>
+                    </mj-text>
+                </mj-column>
+                <mj-column width="100%">
+                    <mj-image 
+                        src="images/mypic/mypic_100x100.jpg"
+                        width="100px"
+                        align="center"
+                    />
+                </mj-column>
+                <mj-column width="100%">
+                    <mj-text
+                        font-size="20px"
+                        line-height="1.5"
+                        color="#ffffff"
+                    >
+                        <p class="aboutme_p">
+                            I am a passionate self-taught. I have learned graphic design and 3d modeling through the internet. This year I discovered web development and now I spent all my free time in learn as much as i can.
+                        </p>
+                    </mj-text>
+                </mj-column>
+            </mj-section>
+            <!-- Links -->
+            <mj-section background-color="#ffffff">
+                <mj-column width="100%">
+                    <mj-text align="center">
+                        <a 
+                            href="https://www.behance.net/Crisart3D" 
+                            title="Behance link"
+                            target="_blank"
+                        >
+                            <img 
+                                width="60px"
+                                src="/images/icons/behance_60x60.jpg" 
+                                alt="Behance icon"
+                            >
+                        </a>
+                    </mj-text>
+                </mj-column>
+                <mj-column width="100%">
+                    <mj-text align="center">
+                        <a 
+                            href="https://github.com/Crisart" 
+                            title="Github link"
+                            target="_blank"
+                        >
+                            <img 
+                                width="60px"
+                                src="/images/icons/github_60x60.jpg" 
+                                alt="Github icon"
+                            >
+                        </a>
+                    </mj-text>
+                </mj-column>
+            </mj-section>
+            <!-- Footer -->
+            <mj-section padding="0">
+                <mj-column width="100%">
+                    <mj-text 
+                        align="center"
+                        line-height="2.4"
+                        color="#333333"    
+                    >
+                        This email was sent to 
+                        <a class="footer_link" href="#" title="Email" target="_blank">
+                            mjml@test.com
+                        </a>
+                        by Crisart
+                        </br>
+                        81 Prospect St | Brooklyn‚ NY
+                        </br>
+                        <a class="footer_link" href="#" title="Unsubscribe" target="_blank">
+                            Unsubscribe
+                        </a>
+                    </mj-text>
+                </mj-column>
+            </mj-section>
+        </mj-container>
+    </mj-body>
+</mjml>
