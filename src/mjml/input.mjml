@@ -154,7 +154,7 @@
                         >
                             <img 
                                 width="60px"
-                                src="/images/icons/behance_60x60.jpg" 
+                                src="images/icons/behance_60x60.jpg" 
                                 alt="Behance icon"
                             >
                         </a>
@@ -169,7 +169,7 @@
                         >
                             <img 
                                 width="60px"
-                                src="/images/icons/github_60x60.jpg" 
+                                src="images/icons/github_60x60.jpg" 
                                 alt="Github icon"
                             >
                         </a>
